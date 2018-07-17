@@ -1,3 +1,7 @@
+var _ = require('lodash'); 
+
+var numArray = [1, 2, 3, 5, 6, 7]; 
+console.log("array", _.without(array, 3)); 
 var input1 = document.querySelector(".color1");
 var input2 = document.querySelector(".color2");
 var css = document.getElementById("h3");
